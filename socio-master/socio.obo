@@ -1,0 +1,13 @@
+format-version: 1.2
+data-version: releases/2018-06-11
+remark: socio
+import: http://purl.obolibrary.org/obo/socio/imports/agro_import.owl
+import: http://purl.obolibrary.org/obo/socio/imports/ico_import.owl
+import: http://purl.obolibrary.org/obo/socio/imports/sdgio_import.owl
+ontology: socio
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/SOCIO_00000000>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/SOCIO_00000000> (socio)\n\nSubClassOf(<http://purl.obolibrary.org/obo/SOCIO_00000000> owl:Thing)\n\n\n)
+
+[Term]
+id: SOCIO:00000000
+name: socio
+
