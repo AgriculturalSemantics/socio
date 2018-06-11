@@ -60,8 +60,8 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 .PRECIOUS: imports/%_import.owl
 
 # Add '--check false' flag if your OWL is not obo-strict
-imports/%_import.obo: imports/%_import.owl --check false
-	$(ROBOT) convert -i $< -o $@
+imports/%_import.obo: imports/%_import.owl 
+	$(ROBOT) convert -i $< -o $@ --check false
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
