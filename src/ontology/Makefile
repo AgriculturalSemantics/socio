@@ -48,7 +48,7 @@ $(ONT).obo: $(ONT).owl
 # These live in the imports/ folder
 # These can be regenerated with make all_imports
 
-IMPORTS = agro sdgio ico
+IMPORTS = agro ico
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
@@ -61,12 +61,23 @@ imports/%_import.owl: mirror/%.owl imports/%_terms.txt
 
 # Add '--check false' flag if your OWL is not obo-strict
 imports/%_import.obo: imports/%_import.owl 
-	$(ROBOT) convert -i $< -o $@ --check false
+	$(ROBOT) convert --check false -i $< -o $@
 
 # clone remote ontology locally, perfoming some excision of relations and annotations
 mirror/%.owl: $(SRC)
 	$(ROBOT) convert -I $(OBO)/$*.owl -o $@
 .PRECIOUS: mirror/%.owl
+
+
+##### non-obo foundry ontologies, e.g. sdgio ##NEED TO IMPROVE THAT PART!
+IMPORTS_NON-OBO = http://purl.unep.org/sdg/sdgio.owl
+
+# Make this target to regenerate ALL
+all_imports_non_obo:
+	$(ROBOT) convert -I http://purl.unep.org/sdg/sdgio.owl -o mirror/sdgio.owl
+	$(ROBOT) extract -i mirror/sdgio.owl -T imports/sdgio_terms.txt --method BOT -O http://purl.unep.org/sdg/sdgio.owl -o imports/sdgio_import.owl	
+	$(ROBOT) convert --check false -i imports/sdgio_import.owl -o imports/sdgio_import.obo
+
 
 # ----------------------------------------
 # Release
