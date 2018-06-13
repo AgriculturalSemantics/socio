@@ -4,7 +4,7 @@
 # socio
 
 
-This ontology is socio-economic ontology to use in the socio-economic surveys of CGIAR Platform for Big data in Agriculture.
+This ontology is the socio-economic ontology developed by CGIAR and partners
 
  
 ## Versions
