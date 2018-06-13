@@ -52,7 +52,7 @@ IMPORTS = agro ico pco obi
 IMPORTS_OWL = $(patsubst %, imports/%_import.owl,$(IMPORTS)) $(patsubst %, imports/%_import.obo,$(IMPORTS))
 
 # Make this target to regenerate ALL
-all_imports: $(IMPORTS_OWL)
+all_imports: $(IMPORTS_OWL) all_imports_non_obo
 
 # Use ROBOT, driven entirely by terms lists NOT from source ontology
 imports/%_import.owl: mirror/%.owl imports/%_terms.txt
@@ -75,7 +75,7 @@ IMPORTS_NON-OBO = http://purl.unep.org/sdg/sdgio.owl
 # Make this target to regenerate ALL
 all_imports_non_obo:
 	$(ROBOT) convert -I http://purl.unep.org/sdg/sdgio.owl -o mirror/sdgio.owl
-	$(ROBOT) extract -i mirror/sdgio.owl -T imports/sdgio_terms.txt --method BOT -O http://purl.unep.org/sdg/sdgio.owl -o imports/sdgio_import.owl	
+	$(ROBOT) extract -i mirror/sdgio.owl -T imports/sdgio_terms.txt --method BOT -O $(BASE)/imports/sdgio_import.owl -o imports/sdgio_import.owl	
 	$(ROBOT) convert --check false -i imports/sdgio_import.owl -o imports/sdgio_import.obo
 
 

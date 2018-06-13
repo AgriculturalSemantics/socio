@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.unep.org/sdg/sdgio.owl#"
-     xml:base="http://purl.unep.org/sdg/sdgio.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/socio/imports/sdgio_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/socio/imports/sdgio_import.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -12,7 +12,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#">
-    <owl:Ontology rdf:about="http://purl.unep.org/sdg/sdgio.owl"/>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/socio/imports/sdgio_import.owl"/>
     
 
 
