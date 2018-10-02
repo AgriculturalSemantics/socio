@@ -1,3 +1,4 @@
+
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
      xml:base="http://purl.obolibrary.org/obo/"
@@ -41,9 +42,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000029 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000029 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000029"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000029"/>
     
 
 
@@ -58,56 +59,55 @@
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000004 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000004 -->
 
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000004">
+    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000004">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:inverseOf rdf:resource="hhttp://purl.obolibrary.org/obo/SOCIO-0000005"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000001"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+        <owl:inverseOf rdf:resource="hhttp://purl.obolibrary.org/obo/SURVO-0000005"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has survey part</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000005 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000005 -->
 
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000005">
+    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000005">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000001"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is survey part of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000007 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000007 -->
 
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000007">
+    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000007">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000001"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000001"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has informed consent form</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000016 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000016 -->
 
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000016">
-        <rdfs:subPropertyOf rdf:resource="hhttp://purl.obolibrary.org/obo/SOCIO-0000005"/>
+    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000016">
+        <rdfs:subPropertyOf rdf:resource="hhttp://purl.obolibrary.org/obo/SURVO-0000005"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000001"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000001"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is informed consent form of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000027 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000027 -->
 
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000027">
+    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000027">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-        <owl:inverseOf rdf:resource="hhttp://purl.obolibrary.org/obo/SOCIO-0000028"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25284"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type of</rdfs:label>
@@ -115,82 +115,90 @@
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000028 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000031 -->
 
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000028">
+    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000031">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25284"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has type</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000031 -->
-
-    <owl:ObjectProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000031">
-        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000021"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000030"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000021"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000030"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has household head</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000032 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000032 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000032">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000032">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
         <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/-0000031"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000030"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000021"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000030"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000021"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">household head of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000054 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000054 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000054">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000054">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000055"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000017"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000055"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label xml:lang="en">has indicator</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000055 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000055 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000055">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000055">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000017"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label xml:lang="en">indicator of</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000058 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000058 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000058">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000058">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
-        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000059"/>
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000021"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000059"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000021"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
         <rdfs:label xml:lang="en">has household member</rdfs:label>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000059 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000059 -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000059">
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000059">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002350"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
-        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000021"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000021"/>
         <rdfs:label xml:lang="en">is household member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000062 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000062">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50906"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000072 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000072">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28421"/>
+        <rdfs:label>has gender</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -212,19 +220,19 @@
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000029 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000029 -->
 
-    <owl:DatatypeProperty rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000029">
-        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000021"/>
+    <owl:DatatypeProperty rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000029">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000021"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has size</rdfs:label>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000033 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000033 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000033">
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000033">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -233,9 +241,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000035 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000035 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000035">
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000035">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -244,9 +252,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000036 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000036 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000036">
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000036">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
@@ -255,9 +263,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000037 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000037 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000037">
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000037">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
         <rdfs:label xml:lang="en">has other name</rdfs:label>
@@ -265,9 +273,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000040 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000040 -->
 
-    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000040">
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/SURVO-0000040">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
         <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
@@ -287,19 +295,19 @@
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000018 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000018 -->
 
-    <owl:Class rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000018">
+    <owl:Class rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001000"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">module questionnaire</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- hhttp://purl.obolibrary.org/obo/SOCIO-0000019 -->
+    <!-- hhttp://purl.obolibrary.org/obo/SURVO-0000019 -->
 
-    <owl:Class rdf:about="hhttp://purl.obolibrary.org/obo/SOCIO-0000019">
-        <rdfs:subClassOf rdf:resource="hhttp://purl.obolibrary.org/obo/SOCIO-0000018"/>
+    <owl:Class rdf:about="hhttp://purl.obolibrary.org/obo/SURVO-0000019">
+        <rdfs:subClassOf rdf:resource="hhttp://purl.obolibrary.org/obo/SURVO-0000018"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta data module questionnaire</rdfs:label>
     </owl:Class>
     
@@ -339,20 +347,22 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000001 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000310"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <IAO_0000115 xml:lang="en">A document used in a method of data collection that involves interviewing (or giving questionnaires to) a representative and often large group of people.</IAO_0000115>
+        <IAO_0000115>A processual entity that realizes a survey during survey period</IAO_0000115>
         <rdfs:label xml:lang="en">survey</rdfs:label>
+        <rdfs:label xml:lang="en">survey process</rdfs:label>
         <rdfs:seeAlso xml:lang="en">http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C17176</rdfs:seeAlso>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000003 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000003 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This class represents the survey modules inside the survey which is from modular approach. It includes demogrpahics, food security, crop production and income, livestock production and income, cash inconem land use, and so on.</IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survey module</rdfs:label>
@@ -360,108 +370,92 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000006 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000006 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cash income module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000008 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000008 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">demographics module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000009 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000009 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop intensification measure module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000010 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000010 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crop produce and income module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000011 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000011 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">debt and aid module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000012 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000012 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">food security module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000013 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000013 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land use module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000014 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000014 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">livestock production and income module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000015 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000015 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000003"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000003"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">meta data module</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000017 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000021 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
-        <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a statistic about an economic activity. Economic indicators allow analysis of economic performance and predictions of future performance. One application of economic indicators is the study of business cycles. Economic indicators include various indices, earnings reports, and economic summaries: for example, the unemployment rate, quits rate (quit rate in U.S. English), housing starts, consumer price index (a measure for inflation), consumer leverage ratio, industrial production, bankruptcies, gross domestic product, broadband internet penetration, retail sales, stock market prices, and money supply changes.</IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indicator</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000018"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000021 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000021">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Household defintion in socio-economic survey is the following:
 1. members of the household live in the same lodging and acknowledge a common household head
@@ -473,139 +467,130 @@ together or in one revenue generating activity</IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000022 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000022 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SOCIO-0000021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SURVO-0000021"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">married</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000023 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000023 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SOCIO-0000021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SURVO-0000021"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single female</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000024 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000024 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SOCIO-0000021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SURVO-0000021"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">single male</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000025 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000025 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SOCIO-0000021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SURVO-0000021"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one person</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000026 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000026 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SOCIO-0000021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo//SURVO-0000021"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">other non family</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000030 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000030 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The head of household is defined as the household member (as an adult) who makes most of the economic decisions</IAO_0000115>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">household head</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">household head role</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000034 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000034 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000034">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000038"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000038"/>
         <IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a human that interviews respondent in a research study</IAO_0000115>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interviewer</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000038 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000038 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000038">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <rdfs:label xml:lang="en">respondent</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000039 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000041 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25284"/>
-        <rdfs:label xml:lang="en">gender type</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001237"/>
+        <rdfs:label xml:lang="en">education</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000041 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000042 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25284"/>
-        <rdfs:label xml:lang="en">education type</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000042 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000041"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
         <rdfs:label xml:lang="en">no school</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000043 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000043 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000041"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
         <rdfs:label xml:lang="en">primary</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000044 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000044 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000041"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
         <rdfs:label xml:lang="en">secondary</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000045 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000045 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000041"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
         <rdfs:label xml:lang="en">post-secondary</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000046 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000046 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000041"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
         <rdfs:label xml:lang="en">adult education</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">literacy school</rdfs:label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">parish school</rdfs:label>
@@ -613,93 +598,303 @@ together or in one revenue generating activity</IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000047 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000047 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000077"/>
         <rdfs:label xml:lang="en">household type</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000048 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000048 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000077"/>
         <rdfs:label xml:lang="en">household size</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000049 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000049 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000017"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000047"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000077"/>
         <rdfs:label xml:lang="en">household population</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000050 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000050 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000039"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28421"/>
         <rdfs:label xml:lang="en">male</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000051 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000051 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000039"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28421"/>
         <rdfs:label xml:lang="en">female</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000052 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000053 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000018"/>
-        <rdfs:label xml:lang="en">demographics module questionnaire</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000053 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000049"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000062"/>
         <rdfs:label xml:lang="en">number of children below three years</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000061 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000061 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <IAO_0000115 xml:lang="en">A processual entity that realizes a survey during survey period</IAO_0000115>
-        <rdfs:label xml:lang="en">survey process</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000074"/>
+        <IAO_0000115 xml:lang="en">A survey is an independent continuent that has generically dependent continuants including &quot;survey response&quot; as an output of &quot;survey process&quot;. One survey can consist of the following documents: 1) questionnaire and  2) informed consented form. The &quot;survey response&quot; links to the &quot;SDG indicator&quot; and &quot;questionnaire&quot;.</IAO_0000115>
+        <rdfs:label xml:lang="en">survey</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000062 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000062 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000062">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
-        <rdfs:label xml:lang="en">survey resource</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo//SOCIO-0000021 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000063 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo//SOCIO-0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25284"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">household type</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <IAO_0000115 xml:lang="en">The role of spouse of a household head in one household</IAO_0000115>
+        <rdfs:label xml:lang="en">household head spouse role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">household head son role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">household head daughter role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">household head son in law role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">household head daughter in law role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">household head grandchildren role</rdfs:label>
+        <rdfs:label xml:lang="en">household head parent role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label xml:lang="en">household head other relative role</rdfs:label>
+        <rdfs:label xml:lang="en">household parent in law role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000075"/>
+        <rdfs:label xml:lang="en">household decision making</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000075"/>
+        <rdfs:label xml:lang="en">access to productive capital</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000075"/>
+        <rdfs:label xml:lang="en">access to credit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000075"/>
+        <rdfs:label xml:lang="en">individual leadership and influence in the community</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000002"/>
+        <rdfs:label xml:lang="en">Women&apos;s empowerment in agriculture</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000075"/>
+        <rdfs:label xml:lang="en">satisfaction with time allocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.unep.org/sdg/SDGIO_00000002"/>
+        <rdfs:label xml:lang="en">Household indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000022"/>
+        <rdfs:label xml:lang="en">Monogamous married</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000022"/>
+        <rdfs:label xml:lang="en">polygamous married</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000022"/>
+        <rdfs:label xml:lang="en">monogamous married</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
+        <rdfs:label xml:lang="en">pre-primary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000041"/>
+        <rdfs:label xml:lang="en">post secondary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000046"/>
+        <rdfs:label xml:lang="en">vocational/literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000046"/>
+        <rdfs:label xml:lang="en">vocational</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000046"/>
+        <rdfs:label xml:lang="en">literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000085"/>
+        <rdfs:label xml:lang="en">university</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SURVO-0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ENVO_01000635"/>
+        <rdfs:label xml:lang="en">agricultural land</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo//SURVO-0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo//SURVO-0000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001237"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">marital status</rdfs:label>
     </owl:Class>
     
 
@@ -715,32 +910,46 @@ together or in one revenue generating activity</IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000056 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000056 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000056">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SOCIO-0000008"/>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/SURVO-0000056">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/SURVO-0000008"/>
         <rdfs:label xml:lang="en">NASA-TAN-EOFSAC</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000057 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000057 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000057">
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/SURVO-0000057">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ICO_0000073"/>
-        <SOCIO-0000033 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soonho</SOCIO-0000033>
-        <SOCIO-0000035 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim</SOCIO-0000035>
+        <SURVO-0000033 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Soonho</SURVO-0000033>
+        <SURVO-0000035 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kim</SURVO-0000035>
         <rdfs:label xml:lang="en">Soonho Kim</rdfs:label>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SOCIO-0000060 -->
+    <!-- http://purl.obolibrary.org/obo/SURVO-0000060 -->
 
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/SOCIO-0000060">
-        <SOCIO-0000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</SOCIO-0000029>
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/SURVO-0000060">
+        <SURVO-0000029 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</SURVO-0000029>
         <rdfs:label xml:lang="en">HH1</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SURVO-0000062">
+        <rdfs:label xml:lang="en">has household role</rdfs:label>
+    </rdf:Description>
 </rdf:RDF>
 
 
