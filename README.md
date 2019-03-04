@@ -4,7 +4,7 @@
 # socio
 
 
-This ontology is the socio-economic ontology developed by CGIAR and partners. Socio-economic ontology team gratefully acknowledges the   Platform for big data in agriculture (https://bigdata.cgiar.org) and CGIAR Research program on Policies, Instiutions and Markets(http://pim.cgiar.org/) for their financial support to implement value chains related concepts in this ontology. 
+This ontology is the socio-economic ontology developed by CGIAR and partners. Socio-economic ontology team gratefully acknowledges the   Platform for big data in agriculture (https://bigdata.cgiar.org) and CGIAR Research program on Policies, Instiutions and Markets(http://pim.cgiar.org/) for their financial support to implement this ontology. 
 
  
 ## Versions
